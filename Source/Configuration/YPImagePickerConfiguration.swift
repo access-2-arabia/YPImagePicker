@@ -68,6 +68,9 @@ public struct YPImagePickerConfiguration {
     /// Adds a Video Trimmer step in the video taking process.  Defaults to true
     public var showsVideoTrimmer = true
     
+    /// Adds a Flip Button to Camera Overlay
+    public var showFlipButton = true
+    
     /// Enables you to opt out from saving new (or old but filtered) images to the
     /// user's photo library. Defaults to true.
     public var shouldSaveNewPicturesToAlbum = true

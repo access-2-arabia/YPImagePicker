@@ -30,7 +30,7 @@ internal class YPCameraView: UIView, UIGestureRecognizerDelegate {
                 progressBar,
                 timeElapsedLabel,
                 flashButton,
-                flipButton,
+                YPConfig.showFlipButton == true ? flipButton : UIView(),
                 buttonsContainer.subviews(
                     shotButton
                 )
@@ -42,7 +42,7 @@ internal class YPCameraView: UIView, UIGestureRecognizerDelegate {
                 progressBar,
                 timeElapsedLabel,
                 flashButton,
-                flipButton,
+                YPConfig.showFlipButton == true ? flipButton : UIView(),
                 buttonsContainer.subviews(
                     shotButton
                 )
